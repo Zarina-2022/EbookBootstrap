@@ -1,0 +1,398 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@1,300;1,400;1,500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    transition: all ease 0.6s;
+}
+header,
+section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Roboto:"Roboto",cursive;
+    --Lobster:"Lobster",cursive;
+    --Poppins:"Poppins",italic;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom, #F8B858, #A83818);
+    --light-gray:rgba(255,255,255,0.877);
+}
+
+
+/* 1st part */
+/* Header-menu */
+header a{
+    font-family: var(--Roboto);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header{
+    background: #A83818;
+    background: var(--bggradient);
+}
+ .dropdown-content{
+    display: none;
+    position: absolute;
+    background: #fff;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+ }
+ .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+ }
+ .dropdown-content a:hover{
+    background: #EDA64F;
+    color: #fff;
+ }
+
+ .dropdown:hover .dropdown-content{
+    display: block;
+ }
+
+ header ul .nav-item:last-child{
+    padding-right: 10.5em;
+ }
+
+ header ul .nav-item{
+    padding: 0.9em;
+ }
+
+ header .navbrand a{
+    padding-left: 5rem;
+ }
+
+ header .nav-link{
+    color: #fff;
+    font-weight: bold;
+ }
+ header .nav-link:hover{
+    color: #fff;
+ }
+ /* Content */
+ header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+ }
+
+ header .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Roboto);
+    color: #fff;
+ }
+
+ header .row .col-md-5 img{
+    width: 80%;
+ }
+
+ header .row .col-md-5 img:hover{
+    width: 90%;
+ }
+
+ header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: bold;
+    transition: all ease 0.5s;
+ }
+
+ header .container .col-md-7 h6:hover{
+    font-size: 25px;
+    color: #8a260b;
+    text-decoration: underline;
+ }
+
+
+ header .container .col-md-7 h1{
+    padding: 0.1em 0em;
+    font-size: 8vmin;
+    font-weight: bold;
+ }
+
+ header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+ }
+
+ header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+ }
+
+
+ /* 2nd part */ 
+
+ .section-1{
+    padding: 20vmin 0;
+ }
+
+ .section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+    height: 550px;
+ } 
+
+ .section-1 .row .col-md-6:last-child{
+    position: relative;
+ } 
+
+ .section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 8vmin;
+    left: -18vmin;
+    background: #fff;
+    border-radius: 3px;
+    text-align: left;
+    padding: 10vmin 5vmin 15vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0,0,0,0.2);
+    font-family: var(--Roboto);
+    z-index: 1;
+ } 
+
+ .section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+ }
+
+ .section-1 .row .col-md-6 .panel h1:hover{
+    font-size: 35px;
+    color: #8a260b;
+    text-decoration: underline;
+ }
+
+ .section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgba(0,0,0,0.5);
+ }
+
+ .section-1 .row .col-md-6 .panel p:hover{
+    font-size: 18px;
+    color: #8a260b;
+ }
+
+ /* 3rd part */
+
+ .cover{
+    width: 100%;
+    height: 55vmin;
+    background: url('../assets/readTogether1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content h1{
+    font-family: var(--Roboto);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p{
+    font-family: var(--Roboto);
+    font-size: 2.5vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px #F8B858;
+}
+
+.numbers{
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1{
+    font-size: 5rem;
+    color: rgb(168, 50, 29);
+}
+
+.numbers .rect p{
+    font-family: var(--Poppins);
+    font-weight: bold;
+}
+
+/* Purchase and Price Cards */
+
+.purchase>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+}
+
+.purchase>p{
+    padding-bottom: 10vmin;
+    font-size: 3vmin;
+    color: var(--light-black);
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title{
+    background: rgba(208,251,241,0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing{
+    background: rgba(208,251,241,0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+
+/*  Part 4  */
+/* Download section */
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--bggradient);
+}
+
+.section-3 .col-md-12>h1{
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+.section-3 .col-md-12>p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+.section-3 .desktop{
+    background: #fff;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.section-3 .desktop h3{
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p{
+    font-size: 2vmin;
+}
+/* 5th part */
+/*Member's section*/
+
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team{
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text{
+    padding: 0.5em;
+}
+
+.section-4 .card .card-body>a{
+    font-size: 1.5em;
+}
+
+.section-4 .carousel-item{
+    padding-left: 3rem;
+}
+
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+
+/*  Part 6   */
+/*FOOTER Section */
+
+footer{
+    background: rgba(0,0,0,0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span{
+    color: tomato;
+}
+
+footer input{
+    border: none !important;
+}
+
+footer input::placeholder{
+    color: white !important;
+}
+
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+.fa-arrow-right{
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+footer .column i{
+    color: tomato;
+    cursor: pointer;
+}
+
+footer .column i+i{  /* this selector select 2nd, 3rd, and 4th: except 1st */
+    padding: 0 0.5em;
+}
+
+
+/* Sticky class */
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
