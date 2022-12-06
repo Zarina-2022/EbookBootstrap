@@ -1,4 +1,4 @@
-# E-book designed with Bootstrap
+# Full Responsive E-book designed with Bootstrap
 
 <h3>This site was made by using HTML, CSS and JavaScript and <a href="https://www.bootstrapcdn.com/"><b>BOOTSTRAP </b> </a>.</h3>
 
